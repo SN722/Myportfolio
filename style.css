@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kaushan+Script&family=Poppins:wght@300&display=swap');
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+     
+      }
+
+    body {
+      height: 100%;
+      width: 100%;
+        background-image: url("images/379.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      nav .left {
+        font-family: 'Dancing Script', cursive;
+        font-size: 30px;
+      }
+
+      nav {
+        display: flex;
+        color: black;
+        justify-content: space-between;
+        padding: 10px 0;
+        align-items: center;
+      }
+
+
+      nav ul {
+        display: flex;
+        list-style: none;
+      }
+
+      nav ul li {
+        margin-right: 20px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: black;
+      }
+
+      nav ul li a:hover {
+        background-color: #527fd2;
+        color: aliceblue;
+        border-radius: 5px;
+        font-size: 1.1rem;
+      }
+
+
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      .firstSection>div {
+        width: 30%;
+      }
+
+      .leftSide {
+        font-size: 4rem;
+        color: black;
+      }
+
+      .rightSide img {
+        width: 70%;
+        border-radius: 50%;
+        padding: 20px;
+      }
+
+      .backgroundImg {
+        background-image: url("images/png-image.png");
+        background-repeat: no-repeat;
+        margin-top: 40px;
+        filter: drop-shadow(30px 30px 5px rgba(105, 102, 102, 0.304));
+      }
+
+      .voilet {
+        color: rgb(0, 64, 255);
+        font-weight: bolder;
+        font-family: 'Kaushan Script', cursive;
+
+      }
+  #element{
+         color: blue;
+         font-family: 'Kaushan Script', cursive;
+  }
+      /* .team {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 5rem 0;
+      } */
+.team{
+  text-align: center;
+  animation-name: team;
+  position: relative;
+}
+   .team .igteam {
+        width: 30%;
+    
+   }
+      
+   .team {
+    text-align: center;
+    margin: 20px 0;
+    overflow: hidden; 
+}
+
+.team h3 {
+    color: #333;
+    font-size: 24px;
+    font-family: 'Kaushan Script', cursive;
+
+}
+.igteam {
+    max-width: 100%;
+    animation: slideLeftRight 10s linear infinite; 
+}
+
+@keyframes slideLeftRight {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(100%); 
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+.gallery-container{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     margin: 20px 0;
+     filter: drop-shadow(30px 30px 5px rgba(105, 102, 102, 0.304));
+}
+      div.gallery {
+        border: 1px solid #ccc;
+        overflow: hidden ;
+        bottom: 5px;
+      }
+      
+      div.gallery:hover {
+        border: 1px solid #cfb88e;             
+        /* #777 */
+        /* padding: 5px; */
+      }
+      
+      div.gallery img {
+        border-radius: 50%;
+        width: 30%;
+        height: 50%;
+      }
+      
+      
+      
+      div.desc {
+        padding: 15px;
+        text-align: center;
+        color: #100f0f;
+      }
+      
+      
+      .responsive {
+        padding: 15px 15px;
+        float: left;
+        width: 24.99999%;
+        text-align: center;
+        bottom: 5px;
+        display: grid;
+      }
+      
+      button{
+        background-color: plum;
+        border-radius: 5px;
+        border: 2px solid black;
+        padding: 10px;
+        width: 100%;
+        cursor: pointer;
+      }
+      button a{
+        text-decoration: none;
+        cursor: pointer;
+        color: white;
+        font-size: large;
+      }
+      button:hover{
+        background-color: transparent;
+        border:2px solid #5489ec;
+        border-radius: 5px;
+      }
+
+      .footer {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 4.5rem 7.5rem;
+        justify-content: space-evenly;
+        color: black;
+        margin-top: 20px;
+      }
+
+      .footer>div {
+        width: 13.9rem;
+        margin-bottom: 20px;
+      }
+
+      .footer ul {
+        list-style: none;
+      }
+
+      footer .rights {
+        text-align: center;
+        color: rgb(58, 55, 55);
+        padding: 10px 0;
+      }
+
+      .footer .first {
+        font-family: 'Dancing Script', cursive;
+        font-size: 30px;
+      }
+
+      .leftSide button {
+        cursor: pointer;
+        padding: 0.75rem;
+        background-color: purple;
+        color: black;
+        border: 2px solid black;
+        font-size: 1.25rem;
+      }
+
+      .leftSide .btn1 {
+        width: 35%;
+        border: 2px solid plum;
+        color: aliceblue;
+      
+      }
+
+      .leftSide .btn2 {
+        width: 35%;
+        background-color: transparent;
+        border: 2px solid purple;
+      }
+
+
+      .leftSide .btn1:hover{
+        background-color: transparent;
+        color: black;
+      }
+
+      .leftSide .btn2:hover{
+        background-color: plum;
+      }
